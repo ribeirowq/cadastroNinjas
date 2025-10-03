@@ -21,6 +21,7 @@ public class MissoesModel {
     private Long id;
     private String nome;
     private String rank;
+    private String nivel;
 
     // @OneToMany - Uma missao para muitos ninjas
     @OneToMany(mappedBy = "missoes")
